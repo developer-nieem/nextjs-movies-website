@@ -14,5 +14,5 @@ module.exports = {
       },
     },
   },
-  plugins:  [require("daisyui"),require('tailwind-bootstrap-grid')() ],
+  plugins:  [require("daisyui"), require('tailwind-bootstrap-grid')() ],
 }
