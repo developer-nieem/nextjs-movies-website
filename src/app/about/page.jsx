@@ -1,9 +1,10 @@
+import HeroSection from '@/components/HeroSection';
 import React from 'react';
 
 const AboutUs = () => {
     return (
         <div>
-            about uS page
+           <HeroSection title={"Our Story"} imgUrl={"/hero.png"}></HeroSection>
         </div>
     );
 };
