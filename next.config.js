@@ -2,7 +2,8 @@
 const nextConfig = {
     images:{
         domains: [
-            'elements.envato.com'
+            'elements.envato.com',
+            'occ-0-3933-116.1.nflxso.net'
         ]
     }
 }
