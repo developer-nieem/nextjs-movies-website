@@ -18,7 +18,7 @@ const MovieCard = ({ curEle }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
-          <p>{synopsis}</p>
+          <p>{`${synopsis.substring(0, 66)} ...`}</p>
           <div className="card-actions justify-end">
             <Link href={`/movie/${id}`} className="btn btn-primary">Buy Now</Link>
           </div>

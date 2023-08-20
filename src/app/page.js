@@ -5,5 +5,7 @@ export default function Home() {
   return (
     
     <HeroSection title={"Let's watch movie together"} imgUrl={"/hero.png"}></HeroSection>
+
+    
   )
 }

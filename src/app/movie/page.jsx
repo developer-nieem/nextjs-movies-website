@@ -6,6 +6,7 @@ import React from 'react';
 const MoviePage = async() => {
 
 
+
     const url = 'https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en';
     const options = {
       method: 'GET',
