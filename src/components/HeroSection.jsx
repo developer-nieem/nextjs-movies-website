@@ -5,7 +5,7 @@ import styles from "./page.module.css";
 
 const HeroSection = ({ title, imgUrl }) => {
   return (
-    <div className="relative mb-44">
+    <div className="relative mb-0">
       <div className="bg-slate-300 py-10">
         <div className="container">
           <div className="row items-center">
