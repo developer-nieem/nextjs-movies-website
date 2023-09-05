@@ -17,7 +17,7 @@ const ContactForm = () => {
     
       const onSubmit = async(data) => {
           const {name, email, number , message} = data
-          const res = await fetch('http://localhost:3000/api/contact', {
+          const res = await fetch('https://nextjs-movies-website-us8n.vercel.app/api/contact', {
             method: "POST",
             headers: {
               "Content-type": "application/json"
