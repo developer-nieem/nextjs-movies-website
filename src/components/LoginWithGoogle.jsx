@@ -1,15 +1,16 @@
 'use client'
-import React from 'react';
-import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
-import app from '@/firebase/firebase.config';
+import React, { useContext } from 'react';
+
+import { AuthContext } from '@/provider/Authprovider';
 
 
 const LoginWithGoogle = () => {
-    const provider =  new GoogleAuthProvider()
-    const auth = getAuth(app);
+   
+
+    const {loginGoogle} = useContext(AuthContext);
 
     const loginWithGoogle = () => {
-        signInWithPopup(auth, provider)
+        loginGoogle()
         .then(result => {
             const user = result.user;
             console.log(user);
